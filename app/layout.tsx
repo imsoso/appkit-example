@@ -1,12 +1,9 @@
 import "./globals.css";
 import type { Metadata } from "next";
 import { headers } from "next/headers";
-import { Inter } from "next/font/google";
 import { cookieToInitialState } from "wagmi";
 import { config } from "@/config";
 import Web3ModalProvider from "@/context";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "AppKit Example App",
